@@ -1,5 +1,5 @@
-document.querySelector("button").addEventListener("click",handleClick);
-
-function handleClick(){
+document.querySelector("button").addEventListener("click",function(){
     alert("I got clicked");
-}  
+});
+
+  
